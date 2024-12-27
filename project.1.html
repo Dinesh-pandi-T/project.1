@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eaeaea;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #666;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .car {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .car-card {
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .car-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .car-card h3 {
+            margin: 0;
+            padding: 10px;
+            background-color: #f4f4f4;
+        }
+
+        .car-card p {
+            padding: 0 10px 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Car Showcase</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Models</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <h2>Our Latest Models</h2>
+        <div class="car">
+            <div class="car-card">
+                <img src="car.1.jpj" alt="Car 1">
+                <h3>Sporty Sedan</h3>
+                <p>Experience luxury and speed with our latest sporty sedan.</p>
+            </div>
+            <div class="car-card">
+                <img src="car2.jpg" alt="Car 2">
+                <h3>Family SUV</h3>
+                <p>Comfort and space for the whole family.</p>
+            </div>
+            <div class="car-card">
+                <img src="car3.jpg" alt="Car 3">
+                <h3>Electric Coupe</h3>
+                <p>Drive into the future with our eco-friendly electric coupe.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Car Showcase. All rights reserved.</p>
+    </footer>
+</body>
+</html>
